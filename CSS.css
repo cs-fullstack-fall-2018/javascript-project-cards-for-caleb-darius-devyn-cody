@@ -1,0 +1,10 @@
+body {
+    border: 2px solid #f45f;
+}
+div {
+    background:red;
+}
+#card {
+    font-size:40px;
+    background:red;
+}
