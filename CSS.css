@@ -1,8 +1,10 @@
 body {
-    border: 2px solid #f45f;
+    background-color: black;
+    color: red;
 }
 div {
     background:red;
+    color: black;
 }
 #card {
     font-size:40px;

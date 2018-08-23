@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+<html lang="en">
 <body>
 <div id="top">
     <center><h1>High Low Card Game</h1></center>
@@ -12,28 +13,24 @@
 
 </p>
 <br>
-<h3>Player 1</h3>
-<h4>score:0</h4>
+<h1 id="winner">TEST</h1>
+<h2>Player 1</h2>
+<h3 id="player1"></h3>
 <h5>Card number</h5>
 
-<button id="test1" type="button"
-        onclick="setTimeout( Start(), 1000000 )">
-    Start</button>
+<button id="start" type="button">Start</button>
 
-<button id="test2" type="button"
-        onclick="setTimeout( Start(), 1000000 )">
-    Restart</button>
+<button id="reset" type="button">Restart</button>
 
 <h3>Player 2 </h3>
 <h4>score:0</h4>
 <h5>Card number</h5>
 <button id="test" type="button"
-        onclick="highOrLow('high')" >
-    Next Game</button>
+        onclick="highOrLow('high')">
+    Next Game
+</button>
 </p>
 <br>
-
-
 
 
 <span id="welcome"></span>
@@ -56,3 +53,6 @@
 
 <span id="high"></span>
 </body>
+<script src="JS.js"></script>
+<link type="text/css" rel="stylesheet" href="CSS.css">
+</html>
